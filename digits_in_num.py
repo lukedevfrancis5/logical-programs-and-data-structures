@@ -10,6 +10,6 @@ while nums != 0:
 '''
 
 nums = input("Enter some numbers: ")
-for digit in nums[::1]:
+for digit in nums[::-1]:
     print(f"{digit}", end=" ") 
     
